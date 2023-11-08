@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
             //CONDICIONAL PARA JUGUETES PARA NIÑO
-            }else if(EditProducto.text.trim().toString().toLowerCase() == "juguetes" || EditProducto.text.trim().toString().toLowerCase() == "juguetes para niños"){
+            }else if(EditProducto.text.trim().toString().toLowerCase() == "juguetes" || EditProducto.text.trim().toString().toLowerCase() == "juguetes para ninos"){
 
                 MontoOriginal = EditCantidad.text.toString().toDouble()
 
